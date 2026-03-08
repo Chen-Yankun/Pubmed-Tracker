@@ -60,7 +60,7 @@
             // 状态管理
             const [keywords, setKeywords] = useState(() => {
                 const saved = localStorage.getItem('pubmed_keywords');
-                return saved ? JSON.parse(saved) : ["CRISPR Cas9", "Machine Learning in Medicine"];
+                return saved ? JSON.parse(saved) : ["MASLD ppar", "Chinese medicine skin care"];
             });
             const [activeKeyword, setActiveKeyword] = useState(keywords[0] || "");
             const [newKeyword, setNewKeyword] = useState("");
